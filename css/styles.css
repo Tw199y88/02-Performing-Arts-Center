@@ -351,12 +351,12 @@ header h1 {
   font-weight: 500;
   text-align: center;
 }
-header h2 {
+header p {
   font-size: 1.5rem;
   display: block;
   text-align: center;
 }
-header h2 a {
+header p a {
   text-decoration: none;
 }
 
@@ -394,24 +394,25 @@ nav a:hover {
   margin: auto;
   padding: 2rem;
 }
-#mainWrapper main div {
+
+section {
   display: grid;
   grid-template-columns: 1fr;
   gap: 16px;
   font-family: "Poppins", sans-serif;
   color: white;
 }
-#mainWrapper main div .showCard {
+section .showCard {
   border: 1px solid black;
   border-radius: 8px;
 }
-#mainWrapper main div .showCard img {
+section .showCard img {
   display: block;
   height: auto;
   width: 100%;
   border-radius: 8px 8px 0px 0px;
 }
-#mainWrapper main div .showCard div {
+section .showCard div {
   background-color: #C1121F;
   border-radius: 0px 0px 8px 8px;
   padding: 5px;
