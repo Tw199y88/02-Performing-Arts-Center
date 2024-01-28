@@ -351,12 +351,12 @@ header h1 {
   font-weight: 500;
   text-align: center;
 }
-header p {
+header h2 {
   font-size: 1.5rem;
   display: block;
   text-align: center;
 }
-header p a {
+header h2 a {
   text-decoration: none;
 }
 
