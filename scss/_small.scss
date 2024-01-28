@@ -1,0 +1,124 @@
+/* Prevent adjustments of font size after orientation changes.  */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  height: 100%;
+}
+
+/*---- apply a natural box layout model to all elements -------*/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  font-family: $defaultFont;
+  font-weight: $normalWeight;
+  color: $fontColor;
+}
+
+#headerWrapper {
+background: white;
+  color: $secondaryColor;
+}
+header {
+  font-family: 'Kaushan Script', cursive;
+  color: #C1121F;
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr;
+  align-items: flex-end;
+  padding: 1rem $gutter;
+  gap: 8px;
+  h1 {
+    font-size: 1.2rem;
+    font-weight: $normalWeight;
+    text-align: center;
+  }
+  p {
+    font-size: 1.5rem;
+    display: block;
+    text-align: center;
+
+    a {
+        text-decoration: none;
+    }
+  }
+}
+
+#navWrapper {
+    background-color: black;
+}
+
+nav {
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    li {
+      flex: 1;
+    }
+  }
+  li.active {
+    background-color: #4a4a4b;
+  }
+  a {
+    display: block;
+    padding: 0.75rem;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    &:hover {
+      color: #c1121F ;
+    }
+  }
+}
+
+#mainWrapper main {
+    font-family: 'Kaushan Script', cursive;
+    color:#C1121F;
+    margin: auto;
+    padding: 2rem;
+}
+
+section {
+    display: grid;    
+    grid-template-columns: 1fr;
+    gap: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    .showCard {
+        border: 1px solid black;
+        border-radius: 8px;
+        img {
+            display: block;
+            height: auto;
+            width: 100%;
+            border-radius: 8px 8px 0px 0px;
+            
+        }
+        div {
+            background-color: #C1121F;
+            border-radius: 0px 0px 8px 8px;
+            padding: 5px;
+        }
+    }
+}
+
+// begin the footer
+
+#footerWrapper {
+    background: black;
+    color: white;
+    width: 100%;
+    padding: 0.5rem $gutter;
+    p{
+        margin: 0;
+        font-weight: $lightWeight;
+        text-align: center;
+    }
+}
