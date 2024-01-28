@@ -394,25 +394,24 @@ nav a:hover {
   margin: auto;
   padding: 2rem;
 }
-
-section {
+#mainWrapper main div {
   display: grid;
   grid-template-columns: 1fr;
   gap: 16px;
   font-family: "Poppins", sans-serif;
   color: white;
 }
-section .showCard {
+#mainWrapper main div .showCard {
   border: 1px solid black;
   border-radius: 8px;
 }
-section .showCard img {
+#mainWrapper main div .showCard img {
   display: block;
   height: auto;
   width: 100%;
   border-radius: 8px 8px 0px 0px;
 }
-section .showCard div {
+#mainWrapper main div .showCard div {
   background-color: #C1121F;
   border-radius: 0px 0px 8px 8px;
   padding: 5px;

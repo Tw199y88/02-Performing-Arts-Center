@@ -83,28 +83,28 @@ nav {
     color:#C1121F;
     margin: auto;
     padding: 2rem;
-}
 
-section {
-    display: grid;    
-    grid-template-columns: 1fr;
-    gap: 16px;
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    .showCard {
-        border: 1px solid black;
-        border-radius: 8px;
-        img {
-            display: block;
-            height: auto;
-            width: 100%;
-            border-radius: 8px 8px 0px 0px;
-            
-        }
-        div {
-            background-color: #C1121F;
-            border-radius: 0px 0px 8px 8px;
-            padding: 5px;
+    div {
+        display: grid;    
+        grid-template-columns: 1fr;
+        gap: 16px;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        .showCard {
+            border: 1px solid black;
+            border-radius: 8px;
+            img {
+                display: block;
+                height: auto;
+                width: 100%;
+                border-radius: 8px 8px 0px 0px;
+                
+            }
+            div {
+                background-color: #C1121F;
+                border-radius: 0px 0px 8px 8px;
+                padding: 5px;
+            }
         }
     }
 }
