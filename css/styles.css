@@ -395,24 +395,24 @@ nav a:hover {
   padding: 2rem;
 }
 
-section {
+.cardWrapper {
   display: grid;
   grid-template-columns: 1fr;
   gap: 16px;
   font-family: "Poppins", sans-serif;
   color: white;
 }
-section .showCard {
+.cardWrapper .showCard {
   border: 1px solid black;
   border-radius: 8px;
 }
-section .showCard img {
+.cardWrapper .showCard img {
   display: block;
   height: auto;
   width: 100%;
   border-radius: 8px 8px 0px 0px;
 }
-section .showCard div {
+.cardWrapper .showCard div {
   background-color: #C1121F;
   border-radius: 0px 0px 8px 8px;
   padding: 5px;
@@ -440,7 +440,7 @@ section .showCard div {
   nav ul {
     flex-direction: row;
   }
-  section {
+  .cardWrapper {
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -448,7 +448,7 @@ section .showCard div {
   nav, main {
     max-width: 60rem;
   }
-  section {
+  .cardWrapper {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
